@@ -1,0 +1,61 @@
+.parent {
+    display: flex;
+}
+
+.tabel-container {
+    width: 100%;
+    transition: width 0.3s ease;
+}
+
+.filters-container {
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s ease;
+}
+
+.filters-container.active {
+    width: 20%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.MuiFormLabel-root,
+.MuiInputLabel-root {
+    /* Add your alignment properties here */
+    text-align: start;
+    /* Example: Center alignment */
+    font-size: 14px !important;
+}
+
+.css-1r9jet7 {
+    min-height: 94px !important;
+}
+
+.outlinedLite {
+    color: #6B7280 !important;
+    border: solid 1px #9CA3AF !important
+}
+
+.outlinedLite:hover {
+    background-color: #9CA3AF !important;
+    color: #fff !important;
+    border-color: transparent !important;
+}
+
+.outlinedLite:active {
+    background-color: #9CA3AF !important;
+    color: #fff !important;
+    border-color: transparent !important;
+}
+
+.outlinedLite:focus {
+    box-shadow: 0 0 0 0.2rem rgba(203, 203, 203, 0.5) !important
+}
+
+/* Additional styling for buttons and icons */
